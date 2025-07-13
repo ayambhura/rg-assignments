@@ -1,1 +1,23 @@
+Git, GitHub, and IntelliJ Q&A
+1.	What is the use of the git add command?
+      It stages changes made to files so they can be committed. Without using git add, changes won’t be saved in the next commit.
+2.	Write the command to create a branch “feature-group”.
+      Using the command: “git branch feature-group”. This creates a new branch named 'feature-group'.
+3.	What is a pull request? Write the steps involved in creating a pull request.
+    A pull request lets you request merging changes from one branch to another. To create one: push your branch, click 'Compare & pull request', then submit.
+4.	 How do you add collaborators?
+    Go to your GitHub repo Settings > Collaborators, then invite by email. Collaborators must accept the invite.
+5.	What is the command used to commit our changes in github repo?
+    Use the command: git commit -m “message". This saves staged changes with a message.
+6.	Create a github account and repository to save all your assignment tasks. Example repository name: rg-assignments
+    Click 'New repository' to create one. Name it 'rg-assignments'.
+7.	 Create a branch called feature-java (you can use it later to push all your java related tasks to this branch)
+    Use the command: git checkout -b feature-java. It creates and switches to the 'feature-java' branch.
+8.	Install IntelliJ IDE. Create a simple java project displaying “Hello World!!” and share the screenshot.
+    Create a new Java project. Create a class with a main method and print 'Hello World!!'.
+9.	 In IntelliJ IDE, explore the shortcut keys for the following
+    a. Run the project: Shift + F10
+    b. Select a line: Home, then Shift + End
+    c. Comment/Uncomment: Ctrl + /
+    d. Delete a line: Ctrl + Y
 
